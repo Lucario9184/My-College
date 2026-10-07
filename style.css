@@ -43,3 +43,7 @@ p {
 #intro{
     color: purple;
 }
+
+div > p{
+    color: #0066cc;
+}
