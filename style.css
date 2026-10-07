@@ -3,6 +3,10 @@ body {
     background-color: lightgray;
 }
 
+hr {
+    border: 1px dashed red;
+}
+
 h1 {
     color: #0066cc;
 }
@@ -16,6 +20,15 @@ h3 {
 }
 
 p {
+    color: green;
     font-size: 18px;
     line-height: 1.5;
+}
+
+.note{
+    color: orange;
+}
+
+#intro{
+    color: purple;
 }
