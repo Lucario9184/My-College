@@ -7,12 +7,27 @@ body {
     background-color: lightgray;
 }
 
-.box{
+header {
+    background-color: silver;
+    padding: 5px;
+}
+
+.box {
     width: 200px;
     height: 125px;
     border: 3px dashed red;
     padding: 20px;
     background: linear-gradient(to right, #ff0000, blueviolet);
+}
+
+nav.box ul li a:hover{
+    color: white;
+}
+
+#boxArt {
+    border: 5px dotted #ff0000;
+    padding: 15px;
+    margin: 10px;
 }
 
 hr {
@@ -35,6 +50,10 @@ p {
     color: green;
     font-size: 18px;
     line-height: 1.5;
+}
+
+p::first-letter {
+    font-size: 1.5em;
 }
 
 .note{
